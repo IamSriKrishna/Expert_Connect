@@ -1,0 +1,32 @@
+[
+  {
+    "title": "HR",
+    "id": 3,
+    "color": "blue",
+    "image": "assets/icons/hr.png"
+  },
+  {
+    "id": 2,
+    "title": "Doctor",
+    "color": "green",
+    "image": "assets/icons/doctor.png"
+  },
+  {
+    "id": 9,
+    "title": "Lawyer",
+    "color": "khaki",
+    "image": "assets/icons/lawyer.png"
+  },
+  {
+    "id": 4,
+    "title": "Finance",
+    "color": "brown",
+    "image": "assets/icons/finance.png"
+  },
+  {
+    "id": 5,
+    "title": "Business",
+    "color": "purple",
+    "image": "assets/icons/business.png"
+  }
+]

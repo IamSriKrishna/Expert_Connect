@@ -1,0 +1,87 @@
+name: expert_connect
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.5.0+5
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  get: ^4.7.2
+  flutter_screenutil: ^5.9.3
+  flutter_form_builder: ^10.0.1
+  form_builder_validators: ^11.1.2
+  cached_network_image: ^3.4.1
+  dio: ^5.8.0+1
+  logger: ^2.5.0
+  url_launcher: ^6.3.1
+  file_picker: ^10.1.9
+  razorpay_flutter: ^1.4.0
+  shared_preferences: ^2.5.3
+  intl: ^0.20.2
+  flutter_spinkit: ^5.2.1
+  provider: ^6.1.5
+  permission_handler: ^12.0.1
+  webview_flutter: ^4.13.0
+  flutter_inappwebview: ^6.1.5
+  shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  pusher_channels_flutter: ^2.5.0
+  http: ^1.4.0
+  image_picker: ^1.1.2
+  geolocator: ^14.0.2
+  firebase_core: ^3.15.2
+  firebase_messaging: ^15.2.10
+  flutter_local_notifications: ^19.4.0
+  agora_rtc_engine: ^6.5.2
+  flutter_launcher_icons: ^0.14.4
+  google_sign_in: ^6.3.0
+  flutter_timezone: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/json/
+
+  fonts:
+    - family: inter_bold
+      fonts:
+        - asset: fonts/Inter_24pt-Bold.ttf
+    - family: inter_medium
+      fonts:
+        - asset: fonts/Inter_24pt-Medium.ttf
+    - family: inter_regular
+      fonts:
+        - asset: fonts/Inter_24pt-Regular.ttf
+    - family: inter_thin
+      fonts:
+        - asset: fonts/Inter_24pt-Thin.ttf
+    - family: manrope_bold
+      fonts:
+        - asset: fonts/Manrope-Bold.ttf
+    - family: manrope
+      fonts:
+        - asset: fonts/Manrope-Regular.ttf
+
